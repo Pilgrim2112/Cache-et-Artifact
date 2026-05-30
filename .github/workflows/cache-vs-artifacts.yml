@@ -46,6 +46,6 @@ jobs:
         runs-on: ubuntu-latest
         steps: 
         - name: aficher le dragon
-          run: cowsay -f dragon "Je suis le dragon"
+          run: npx cowsay -f dragon "Je suis le dragon"
         
 
