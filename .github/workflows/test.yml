@@ -1,0 +1,11 @@
+name: ciras
+
+on: push
+
+jobs:
+   afficher-le-fichier:
+    runs-on: ubuntu-22.04
+
+    steps:
+     - name: lister le repertoire home
+       run: ls /home
