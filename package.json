@@ -1,0 +1,21 @@
+{
+  "name": "cache-et-artifact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pilgrim2112/Cache-et-Artifact.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Pilgrim2112/Cache-et-Artifact/issues"
+  },
+  "homepage": "https://github.com/Pilgrim2112/Cache-et-Artifact#readme"
+}
