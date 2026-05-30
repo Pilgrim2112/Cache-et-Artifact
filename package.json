@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Pilgrim2112/Cache-et-Artifact/issues"
   },
-  "homepage": "https://github.com/Pilgrim2112/Cache-et-Artifact#readme"
+  "homepage": "https://github.com/Pilgrim2112/Cache-et-Artifact#readme",
+  "dependencies": {
+    "cowsay": "^1.6.0"
+  }
 }

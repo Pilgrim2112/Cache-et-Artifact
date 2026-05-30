@@ -41,5 +41,11 @@ jobs:
              echo  "Fichiers reçus :" 
              ls dist/ 
              cat dist/build-info.txt
+    hello:
+        needs: deployer
+        runs-on: ubuntu-latest
+        steps: 
+        - name: aficher le dragon
+          run: cowsay -f dragon "Je suis le dragon"
         
 
