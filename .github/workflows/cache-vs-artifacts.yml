@@ -29,7 +29,7 @@ jobs:
             path: dist/
             retention-days: 7
     deployer:
-        needs: install-et-build
+       # needs: install-et-build
         runs-on: ubuntu-latest
         steps:
         - name:  Récupérer l'artifact du build
@@ -43,7 +43,7 @@ jobs:
              ls dist/ 
              cat dist/build-info.txt
     hello:
-        needs: deployer
+       # needs: deployer
         runs-on: ubuntu-latest
         steps: 
         - name: aficher le dragon
